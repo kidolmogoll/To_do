@@ -102,60 +102,62 @@ h3 {
   padding: 0 0.5rem;
 }
 
-@media screen and (max-width: 435px) {
-  .list {
-    transform: scale(0.9);
-  }
-}
+@media screen and (max-width: 500px) {
+  /* ADD-LIST STYLES */
 
-@media screen and (max-width: 390px) {
   .list {
-    transform: scale(0.8);
+    padding: 1.3rem 0.7rem;
   }
-}
 
-@media screen and (max-width: 320px) {
+  h3 {
+    font-size: 1rem;
+  }
+
   .list-input input {
-    width: 250px;
-    height: 35px;
-    padding: 0.5rem 3rem 0.5rem 0.5rem;
-    border-radius: 5px;
-    transform: translateX(20px);
+    width: 260px;
   }
 
-  .list-display {
-    height: 35px;
-    width: 240px;
+  .add-btn {
+    width: 70px;
+  }
+
+  /* ADDED TO-DO LIST STYLES */
+
+  .to_do-list {
+    align-items: center;
   }
 
   .to_do-list li {
-    width: 295px;
-    transform: translateX(18px);
+    padding: 0 0.4rem;
+    width: 90%;
   }
 }
 
-@media screen and (max-width: 295px) {
+@media screen and (max-width: 372px) {
+  /* ADD-LIST STYLES */
+
+  .list {
+    padding: 1.3rem 0.7rem;
+  }
+
   .list-input input {
     width: 220px;
-    height: 35px;
-    padding: 0.5rem 3rem 0.5rem 0.5rem;
+    height: 33px;
   }
 
-  .list-display {
+  .add-btn {
+    width: 60px;
     height: 35px;
-    width: 240px;
+  }
+
+  /* ADDED TO-DO LIST STYLES */
+
+  .to_do-list {
+    margin-top: 1.5rem;
   }
 
   .to_do-list li {
-    width: 260px;
-    transform: translateX(19px);
-  }
-}
-
-@media screen and (max-width: 270px) {
-  .list {
-    border: none;
-    padding: 0 0.5rem;
-    transform: translateY(-50px) scale(0.8);
+    padding: 0 0.4rem;
+    width: 245px;
   }
 }
